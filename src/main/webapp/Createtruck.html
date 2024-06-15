@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor="cyan">
+<div> 
+<form action="truck" method="post">
+<h1 style="text-align:center; padding:auto;">Add truck</h1>
+ <hr width="500" color="black">
+  <center>
+ Truck model <input type="text" name="tm"><br><br>
+ Truck no <input type="text" name="tn"><br><br>
+ insurance: <input type="radio" id="yes" name="choice" value="yes">yes
+            <input type="radio" id="No" name="choice" value="No">No<br><br>
+ If yes then insurance company name:
+ <input type="text" name="inc"><br><br>
+ owner: <input type="text" name="owner"><br><br>
+ mobile:  <input type="text" name="mobile"><br><br>
+route-from:<select name="branch1" id="users">
+      <option value="hydrabad"  >Hydrabad</option>
+      <option value="nagpur"  >Nagpur</option>
+       <option value="mumbai"  >Mumbai</option>
+        <option value="pune"  >Pune</option>
+         <option value="delhi"  >Delhi</option>
+  </select>
+  to:<select name="branch2" id="users">
+      <option value="hydrabad"  >Hydrabad</option>
+      <option value="nagpur"  >Nagpur</option>
+       <option value="mumbai"  >Mumbai</option>
+        <option value="pune"  >Pune</option>
+         <option value="delhi"  >Delhi</option>
+  </select><br><br>
+ Status: <input type="text" name="status"><br><br>
+ Date_of_joining: <input type="date" name="date">
+  <input type="submit" value="Insert">
+  </center>
+  <hr width="500" color="black">
+ </form>
+ </div>
+</body>
+</html>
